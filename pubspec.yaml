@@ -1,0 +1,44 @@
+name: armgames
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment:
+  sdk: '>=2.16.1 <3.0.0'
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  get: 4.6.1
+  flutter:
+    sdk: flutter
+
+
+dev_dependencies:
+  flutter_lints: ^1.0.0
+  lints: 1.0.1
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+
+  assets:
+    - asset/one.png
+    - asset/two.png
+    - asset/three.png
+    - asset/five.png
+    - asset/six.png
+    - asset/seven.png
+    - asset/nine.png
+    - asset/11.png
+    - asset/12.png
+    - asset/rd.png
+    - asset/fa.png
+    - asset/aa.png
+
+  fonts:
+    - family: JosefinSans
+      fonts:
+        - asset: asset/font/JosefinSans-Regular.ttf
+
+
